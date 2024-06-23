@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Us"
-        description="We are a dedicated software agency specializing in custom-coded business websites, MVPs, and chatbots. Our goal is to turn your ideas into amazing digital solutions"
+        description="We are a dedicated software agency specializing in MVPs, Pre-built solutions and chatbots. Our goal is to turn your ideas into amazing digital solutions"
       />
       <AboutSectionOne />
       <AboutSectionTwo />

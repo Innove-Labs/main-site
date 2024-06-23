@@ -5,29 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Pete A Dean",
+    designation: "Owner, Kingz 4 U Construction, Toronto, Canada",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Innove Labs impressed Kings Constructions with seamless communication, fresh perspectives, and flawless web development. The team's efficiency, on-time delivery, and ongoing support make them a top choice. Highly recommend Innove Labs for stellar web development!",
+    image: "/images/testimonials/auth-01.svg",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Michael",
+    designation: "Owner, Daniels Signs and Designs. Canada",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
+      "Innove Labs exceeded expectations in developing Daniels Signs and Designs' website. Their team's understanding of our vision, seamless communication, and impressive technical skills resulted in a visually stunning and functional platform. The project was completed on time and within budget, showcasing their professionalism. Highly recommend Innove Labs for top-notch web development!",
+    image: "/images/testimonials/auth-02.svg",
+    star: 4,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Khizer Bari",
+    designation: "Co-Founder @Roameazy",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+          "Innove Labs brought our vision to life with exceptional expertise and dedication. Their team not only delivered a stunning website but also provided valuable insights and support throughout the development process. From responsive design to seamless functionality, every detail was meticulously handled. Working with Innove Labs was a pleasure, and we highly recommend their services for anyone seeking top-quality web development.",
+    image: "/images/testimonials/auth-03.svg",
     star: 5,
   },
 ];

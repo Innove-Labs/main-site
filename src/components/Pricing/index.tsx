@@ -3,6 +3,7 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
+import Link from "next/link";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -12,12 +13,21 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Explore our clear and budget-friendly options. We offer straightforward rates, ensuring transparency and affordability for your project needs."
           center
           width="665px"
         />
-
-        <div className="w-full">
+        <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  <Link
+                    href="https://calendly.com/hello-innovelabs/30min"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    target='_blank'
+                  >
+                    💸 Give me a quote
+                  </Link>
+                </div>
+        </div>
+        {/* <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
             <span
               onClick={() => setIsMonthly(true)}
@@ -153,7 +163,7 @@ const Pricing = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 };
