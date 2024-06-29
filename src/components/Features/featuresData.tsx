@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Full Fledge MVPs",
     paragraph:
-      "From concept to deployment, we specialize in developing Minimum Viable Products (MVPs) that validate your business idea efficiently. Our comprehensive approach ensures rapid iteration and scalability, helping you launch with confidence.",
+      "We specialize in developing MVPs to efficiently validate your business idea. Our approach ensures rapid iteration and scalability, helping you launch with confidence.",
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Pre-built Solutions",
     paragraph:
-      "Explore our range of pre-built solutions designed to accelerate your project timelines and reduce development costs. Whether you need a robust e-commerce platform or a scalable SaaS application, our pre-built solutions offer flexibility and customization options tailored to your business needs.",
+      "Explore our pre-built solutions to accelerate project timelines and reduce costs. Whether you need an e-commerce platform or a scalable SaaS application, our flexible, customizable options are tailored to your business needs.",
   },
   {
     id: 1,
@@ -42,7 +42,7 @@ const featuresData: Feature[] = [
     ),
     title: "Personalized Chat Bots",
     paragraph:
-      "Enhance customer engagement and operational efficiency with our personalized chat bot solutions. We integrate AI-driven chat bots that are customized to your brand voice and specific business requirements, providing seamless interactions and automated support.",
+      "Enhance engagement and efficiency with our AI-driven chat bots. Customized to your brand and business needs, they provide seamless interactions and automated support.",
   },
   // {
   //   id: 1,

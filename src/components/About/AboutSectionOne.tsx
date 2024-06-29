@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Crafted for Startups, small and medium sized businesses"
-                paragraph="We specialize in helping startups and small to medium-sized businesses thrive. Our tailored solutions are designed to meet your unique needs, providing high-quality, scalable digital products. From building your online presence to launching new ideas, we’re here to support your growth every step of the way."
+                paragraph="We specialize in helping startups and small businesses thrive with tailored digital solutions."
                 mb="44px"
               />
 

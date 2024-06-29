@@ -13,10 +13,10 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  We craft your vision into High-Quality MVPs and Products. Ready?
+                  Ready to craft your vision into High-Quality MVPs and Products?
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Are you a startup looking to validate your concept quickly or an established business aiming to innovate? Our team of expert engineers leverage years of  experience to build robust, scalable   solutions tailored to your needs.
+                Our expert engineers create robust, scalable solutions tailored to your needs, <strong>saving you time</strong> and <strong>boosting your profits.</strong>
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
@@ -24,7 +24,7 @@ const Hero = () => {
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                     target="_blank"
                   >
-                    🔥 Yeah, Let's do this!
+                    🔥 Let's do this!
                   </Link>
                   {/* <Link
                     href="/contact"
