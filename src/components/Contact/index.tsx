@@ -30,9 +30,9 @@ const Contact = () => {
     }
 
     e.preventDefault()
-    fetch('/api/submit-ticket', {
+    fetch('https://chat.googleapis.com/v1/spaces/AAAADMcvfFU/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=UAElaEmdOXqW8GDgsHb3kVqYig7X3phX2IJMV2IBNGE', {
       method: 'POST',
-      body: JSON.stringify(data),
+      body: JSON.stringify({text: JSON.stringify(data)}),
     }).then(() => {
       alert("Ticket submitted successfully");
     }).catch((error) => {
